@@ -38,7 +38,7 @@ class MapSampleState extends State<MapSample> {
   Widget build(BuildContext context) {
     return new Scaffold(
       body: GoogleMap(
-        myLocationButtonEnabled: true,
+        //myLocationButtonEnabled: true,
         myLocationEnabled: true,
         mapType: MapType.hybrid,
         initialCameraPosition: _kGooglePlex,
